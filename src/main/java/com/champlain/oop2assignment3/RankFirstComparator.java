@@ -3,7 +3,7 @@ package com.champlain.oop2assignment3;
 import java.util.Comparator;
 
 /**
- * Comparator for sorting cards by rank first, then suit.
+ * Sorts Cards by rank first, and then suit
  */
 public class RankFirstComparator implements Comparator<Card> {
     @Override
